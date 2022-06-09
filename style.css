@@ -1,0 +1,490 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header-start */
+.header{
+    background-image: url('./images/Untitled-1.png');
+    width: 100%;
+    height:850px;
+    background-size: cover;
+    position: relative;
+}
+.menu{
+   margin-left: 150px;
+  
+}
+.menupart{
+    background: rgba(227, 246, 255, .7);
+    width: 100%;
+    height: auto;
+    margin-top: -46px;
+}
+.menu .email{
+    margin-left: 30px;
+}
+.menu .en{
+    margin-left: 250px;
+    font-weight: bold;
+}
+.menu .usd{
+    margin-left: 30px;
+    font-weight: bold;
+}
+.border{
+    width: 900px;
+    height: 2px;
+    background-color: black;
+    margin-left: 150px;
+}
+.nav{
+    margin-left: 150px;
+    margin-top: 5px;
+}
+.navlist{
+    display: flex;
+    list-style: none;
+    margin-left: 70px;
+}
+.navlink{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin: 5px;
+}
+.nav .icon{
+    color: black;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+
+.mainbanner{
+    background: rgba(186, 233, 255, .5);
+    width: 100%;
+    height: 743px;
+}
+.mainbanner .image img{
+    width:620px;
+    height: 750px;
+    margin-left: -222px ;
+}
+.mainbanner .fashion{
+    font-weight: bold;
+    font-size: 85px;
+    margin-top: -84px;
+    margin-left: -40px;
+    
+}
+.mainbannerpartone{
+    margin-left: 330px;
+    margin-top: 155px;
+}
+.mainbanner .carnival{
+    font-weight: bold;
+    font-size: 85px;
+    margin-left: -73px;
+    margin-top: -34px;
+    color: #F9236F;
+}
+.mainbanner .year{
+    letter-spacing: 83px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: -25px;
+    margin-top: -30px;
+}
+.mainbanner .lorem{
+    margin-left: -58px;
+    font-size: 16px;
+}
+#loremline{
+    margin-top: -15px;
+}
+.mainbanner .shopnow{
+    font-size: 18px;
+    color: #fff !important;
+    font-weight: 600;
+    
+}
+.mainbanner button{
+    background: #F9236F;
+    border-radius: 3px;
+    width: 105px;
+    height: 40px;
+    border: none;
+    margin-left: 70px;
+}
+
+/* header-end */
+
+/* products_start */
+
+.products{
+    width: 100%;
+    height: 1050px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    
+}
+.productslist{
+    width: 85%;
+    height: 1110px;
+    background: #ffffff;
+    position: absolute;
+    margin-top: -26px;
+    margin-left: 87px;
+}
+
+#productimage{
+    width: 150px;
+    height: 200px;
+    
+}
+.productpic{
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.redpart{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.redpart p{
+    margin-left: -111px;
+    margin-top: -10px;
+}
+.redpart h4{
+    font-size: 18px;
+}
+.redpart #delete{
+    margin-left: 16px;
+}
+.redpart .star{
+    margin-top: -15px;
+}
+.icon{
+    margin-left: 140px;
+}
+.first{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    background:#fff;
+    margin-left: 35px;
+    margin-top: -25px;
+
+}
+.bi-truck{
+    position: absolute;
+    top: 16px;
+    left: 23px;
+    color: #5C5C5C;
+    font-size: 25px;
+}
+
+.second{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    background:#fff;
+    margin-left: 246px;
+    margin-top: -25px;
+}
+.bi-stopwatch{
+    position: absolute;
+    top: 15px;
+    left: 23px;
+    color: #5C5C5C;
+    font-weight: bold;
+    font-size: 25px;
+}
+.bi-info-lg{
+    position: absolute;
+    top: 15px;
+    left: 23px;
+    color: #5C5C5C;
+    font-weight: bold;
+    font-size: 25px;
+}
+.three{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    background:#fff;
+    margin-left: 247px;
+    margin-top: -25px;
+}
+.icontype{
+    margin-left: 137px;
+}
+.shipping{
+    margin-left: -21px;
+}
+.freerefund{
+    margin-left: 10px;
+}
+.refund{
+    margin-left: -24px;
+}
+.support{
+    margin-left: 10px;
+}
+.supportcall{
+    margin-left: -22px;
+}
+  
+
+
+.cardone{
+    width: 90%;
+    background-image: url('./images/11.png');
+    height: 250px;
+    background-size: cover;
+    margin-left: 15px;
+}
+
+.carddetails{
+    margin-left: 45px;
+    padding-top: 30px;
+}
+.fashioncard{
+    font-weight: bold;
+    font-size: 28px;
+}
+.carnivalcard{
+    font-weight: bold;
+    font-size: 28px;
+    color:#F9236F;
+    margin-top: -12px;
+}
+.buttoncard{
+    background: #F9236F;
+    width: 105px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+.shopcard{
+    color: #fff;
+    margin-top: 4px;
+}
+
+.cardtwo{
+    width: 95%;
+    background-image: url('./images/20.png');
+    height: 250px;
+    background-size: cover;
+    margin-right: 10px;
+}
+.featuredproducts h3{
+    text-align: center;
+}
+.featuredproducts p{
+    text-align: center;
+}
+
+/* products_end */
+
+/* latest_news_start */
+
+
+.news{
+    background-image: url('./images/50.png');
+    width: 100%;
+    height: 850px;
+    margin-top: -10px;
+}
+.news h2{
+    text-align: center;
+    padding-top: 50px;
+}
+.news p{
+    text-align: center;
+}
+.btn-primary{
+    background-color: #F9236F !important;
+    margin-left: 72px;
+}
+
+
+
+
+.newcard{
+    margin-left: 95px;
+}
+
+.card{
+    width:280px;
+}
+
+.firstoneorange{
+   margin-left: -64px;
+}
+ins{
+    text-decoration: none;
+}
+.orange{
+    margin-top: 16px;
+    margin-left: -8px;
+}
+
+/* latest_news_end */
+
+/* our_brands_start */
+
+.brands{
+    background-image: url('./images/300.png');
+    width: 100%;
+    height: 1200px;
+    margin-top: -140px;
+}
+.brandstart{
+    width: 1060px;
+    background-color: #fff;
+    height: 1200px;
+    margin-left: 96px;
+    position: absolute;
+    margin-top: 65px;
+    border-radius: 5px;
+}
+.ourbrands{
+    margin-top: 59px;
+    margin-left: 180px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.brands .image{
+    margin-top: 63px;
+}
+
+
+.brands h3{
+    margin-top: 50px;
+    margin-left:320px;
+}
+.some{
+    margin-left:343px;
+}
+#brandtext{
+    margin-left: 250px;
+    width: 590px;
+}
+.brandread{
+    background-color: #F9236F;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    height: 28px !important;
+    font-size: 16px;
+    width: 100px;
+    margin-left: 55px;
+}
+
+.brandsbar{
+    width:270px;
+    height: 1px;
+    background-color: black;
+    margin-left: 27px;
+}
+#eighty{
+    height: 707px;
+    width:90%;
+    margin-left: 12px;
+}
+.brandnewbar{
+    width: 90%;
+    height: 1px;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.one{
+    margin-left: 25px;
+}
+.onepart{
+    margin-left: -25px;
+}
+#onestar{
+    margin-top: 25px;
+}
+
+#oneicon{
+    margin-top: -15px;
+}
+
+del,ins{
+    font-size: 16px;
+}
+
+/* our_brands_end */
+
+.brandlogo{
+    width: 100% !important;
+    background-color: #E8E8E8;
+    height: 250px;
+}
+#brandlogo{
+    margin-left: 45px;
+    margin-top: 95px;
+}
+
+/* footer_start */
+
+.footer{
+    width: 100%;
+    background-image: url('./images/500.png');
+    height: 500px;
+    color: #fff;
+}
+.footerstart{
+    background-color: #F9236F;
+    width: 100%;
+    height: 500px;
+    margin-left: 95px;
+    padding-top: 100px;
+}
+
+.alert-warning{
+    background-color: #fff !important;
+}
+
+
+.footermenu{
+    padding-left: 10px;
+
+}
+.footermenutwo{
+    margin-left: -60px;
+}
+.footer ul{
+    list-style: none;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: -31px;
+}
+
+.laststep{
+    margin-left: -130px;
+}
+.payment{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -15px;
+}
+.lastfooter{
+    text-align: center;
+    margin-left: -240px;
+    margin-top: 50px;
+}
+
